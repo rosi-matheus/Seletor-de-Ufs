@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  padding: 40px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  background-color: #242424;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px aqua,
+    0 0 30px aqua, 0 0 40px aqua, 0 0 55px aqua, 0 0 75px aqua;
+}
+
+.container-principal {
+  width: 100%;
+  max-width: 600px;
+  padding: 50px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #0f2027;
+  background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  border-radius: 10px;
+  gap: 30px;
+}
+
+.comboBox {
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.campoDeBusca,
+.campoDeSelecao {
+  width: 100%;
+}
+
+.campoDeBusca input,
+.campoDeSelecao select {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: none;
+}
+
+.campoDeBusca input {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.campoDeBusca input::placeholder {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.card {
+  min-width: 400px;
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: aqua;
+  border: 5px solid aqua;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
